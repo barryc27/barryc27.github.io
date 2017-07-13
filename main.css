@@ -1,0 +1,30 @@
+body{
+  background:blue;
+  font-size: 14;
+}
+
+p{
+  font-family: sans-serif;
+}
+
+h1 {
+  color: yellow;
+}
+h2 {
+  color: maroon;
+}
+.heading {
+  font-weight: bold;
+}
+ul{
+
+}
+
+#important{
+  color: red;
+  font-size: 200%
+}
+a{
+  color: purple;
+  
+}
