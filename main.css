@@ -1,6 +1,6 @@
 body{
   background:blue;
-  font-size: 14;
+  font-size: 14em;
 }
 
 p{
@@ -22,9 +22,9 @@ ul{
 
 #important{
   color: red;
-  font-size: 200%
+  font-size: 200%;
 }
 a{
   color: purple;
-  
+
 }
