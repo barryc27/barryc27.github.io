@@ -20,11 +20,11 @@ text-declaration: none;
 }
 
 A:hover {
-
+color: pink;
 }
 
 a:visited {
-
+color: purple;
 }
 
 #headblock address { 
