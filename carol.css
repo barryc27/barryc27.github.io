@@ -43,10 +43,12 @@ background-color: #927E5D;
  
  img {
 width: 300px;
+	 float: right;
 }
 
 img.left {
-
+ float: left;
+	padding: 10px;
 }
 
 #footer {
