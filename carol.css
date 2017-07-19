@@ -38,7 +38,7 @@ background-color: #927E5D;
 	 padding-right: 40px;
 	 padding-top: 40px;
 	 margin: 10px;
-	 padding-bottom: 167px;
+	 padding-bottom: 40px;
 	 
  }
  
@@ -61,5 +61,5 @@ img.left {
 }
 
 #clearer {
-
+clear:both;
 }
