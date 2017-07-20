@@ -10,6 +10,8 @@ body {
 	    background-color: #BEA785;
 	color: bisque;
 	font-family: 'Bitter', serif;
+	padding: 15px;
+	background:url(https://s-media-cache-ak0.pinimg.com/736x/37/47/fd/3747fd5c6ef8ab4f1d11c4a5efc5a93a--orange-zest-orange-color.jpg)
 }
 
 h1 { 
@@ -33,7 +35,7 @@ color: purple;
 }
  
  #home, #page2 {
-background-color: #927E5D;
+background-color: #DD8666;
 	 padding-left: 40px;
 	 padding-right: 40px;
 	 padding-top: 40px;
