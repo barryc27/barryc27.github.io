@@ -1,67 +1,112 @@
-<!DOCTYPE html>
-<html>
-
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-		<link rel="stylesheet" type="text/css" href="carol.css" />
-		<link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
-		<title>Caroline's Webpage</title>
-		<script>
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
+body {
+	    background-color: #DCCFC6;
 }
-</script>
-	</head>
+	
+#contents {
+	margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+	    background-color: #BEA785;
+	color: bisque;
+	font-family: 'Bitter', serif;
+	padding: 15px;
+	border-radius: 20px;
+	background:url(https://s-media-cache-ak0.pinimg.com/736x/37/47/fd/3747fd5c6ef8ab4f1d11c4a5efc5a93a--orange-zest-orange-color.jpg)
+}
 
-	<body>
-		<div id="contents">
-			<div id = "headblock">
+h1 { 
 
-				<h1>Caroline Barry</h1>
-				<address>
-					<a href="mailto:barrycaroline19@gmail.com">barrycaroline19@gmail.com</a>
-				</address>
-				<div class="topnav" id="myTopnav"> 
-				<a href="home.html">Home</a>
-          <a href="page2.html">Page 2</a>
-          <a href="contact.html">Contact</a>
-          <a href="about.html">About</a>
-          <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-        </div>
+}
 
-			</div>
+A:link {
+text-declaration: none;
+}
 
-			<div id = "home">
+A:hover {
+color: pink;
+}
 
-				<img src = "http://pixdaus.com/files/items/pics/8/28/520828_28b0794999c97cecbf9c9d63066154c9_large.jpg" alt = "first image"/>
+a:visited {
+color: purple;
+}
 
-				<h3>An example of Lorem Ipsum:</h3>
+#headblock address { 
 
-				<p>Quibusdam consequatur expedita magni accusantium. Repellendus a quis culpa dolorem non hic deleniti. Blanditiis praesentium accusantium ut. Hic voluptates nostrum consequatur quod tempora atque voluptatem. Dolor temporibus eum vitae.</p>
+}
+ 
+ #home, #page2 {
+background-color: #DD8666;
+	 padding-left: 40px;
+	 padding-right: 40px;
+	 padding-top: 40px;
+	 margin: 10px;
+	 padding-bottom: 40px;
+	 
+ }
+ 
+ h3 {
 
-				<p>Fugit at voluptatem ipsa. Deleniti qui sunt culpa vitae. Et libero nesciunt veritatis fugit optio ea cum eum. Sunt dolorem enim rem nihil.</p>
+}
+ 
+ img {
+width: 100%;
+	 float: right;
+}
 
-				<p>Esse nostrum architecto hic soluta magni laudantium. Eos fuga ullam rerum nihil quis magni. Cumque enim dignissimos a. Eius velit est quam beatae recusandae fugit corrupti deleniti. Qui consequatur ea animi atque qui.</p>
+img.left {
+ float: left;
+	padding: 10px;
+}
 
-				<img class="left" src = "https://s-media-cache-ak0.pinimg.com/736x/4a/a8/87/4aa8872d366c23cf7901378ca69087ba--cockapoo-dog-goldendoodle.jpg" alt = "second image"/>
+#footer {
+margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 20px;
+}
 
-				<p>Itaque hic asperiores ut illum. Nihil laudantium incidunt enim. Consequuntur qui eum animi nisi debitis voluptatem natus nihil. Ipsa quia ea quae soluta. Rerum mollitia asperiores rerum cupiditate.</p>
+#clearer {
+clear:both;
+	
+}
+jdshaf [1:46 PM] 
+.topnav {
+  overflow: hidden;
+    background: rgba(0,0,0,.75);
+    border-radius: 10px;
+    margin-top: 10px;
+}
 
-				<p>Doloremque sed excepturi exercitationem. Totam aut reiciendis et veritatis ad voluptas. Quo dolorem ipsum est incidunt porro provident tenetur. Voluptas magnam voluptates amet tempore voluptatem et quos asperiores. Quia eveniet optio nisi sed maiores.</p>
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2 ;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav .icon {
+  display: none;
+}
 
 
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: left;
+    display: block;
+  }
+}
 
-
-				<div id = "clearer"></div>
-			</div>
-
-			<p id = "footer">&copy; 2017, Caroline Barry</p>
-
-		</div>	
-	</body>
-</html>
+ .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
