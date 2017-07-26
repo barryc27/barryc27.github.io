@@ -30,7 +30,9 @@ color: pink;
 a:visited {
 color: purple;
 }
-
+h4 {
+	text-declaration: underline;
+}
 #headblock address { 
 
 }
